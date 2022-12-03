@@ -46,7 +46,8 @@ var keyMap = {
   83: "down",
 };
 state.x = g_width / 2;
-
+if (g_width < 750)
+  state.x = g_width - 100;
 function keydown(event) {
   if (parseInt(mainObject.css("bottom")) > 3) return;
 
