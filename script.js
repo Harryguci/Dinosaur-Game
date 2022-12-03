@@ -26,7 +26,7 @@ class Obstacle {
 }
 
 var obstacleArray = [];
-obstacleArray.push(new Obstacle(0, 0, 1));
+obstacleArray.push(new Obstacle(-100, 0, 1));
 
 var state = {
   x: 0,
